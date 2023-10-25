@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+body{ background-color: gainsboro;
+
+}
+div.Principal{
+    background-color: white;
+    margin: 30px auto;
+    width: 80%;
+    border: 1px solid rgb(119, 105, 105);
+    padding: 20px;
+}
+div.imagen{
+    border: 1px solid gainsboro; 
+    margin-bottom: 10px;
+}
+div.imagen img{
+    max-width: 100%;
+    display:block;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+tr.titulo td{
+    border: top 2px;color: aliceblue;
+    border-bottom: 2px solid rgb(48, 48, 85);
+}
+td{
+    border-bottom: 1px;color:solid gray;
+    padding: 10px;
+     
+}
+td.Hora{
+}
+td:hover{
+    background-color: cadetblue;
+}
